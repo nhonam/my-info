@@ -22,6 +22,26 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.company-link {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.35rem;
+			color: #0d6efd;
+			font-weight: 600;
+			text-decoration: none;
+			padding: 0.25em 0.5em;
+			border-radius: 6px;
+			border: 1px solid rgba(13, 110, 253, 0.4);
+			transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+		}
+		.company-link:hover {
+			background-color: rgba(13, 110, 253, 0.1);
+			color: #0a58ca;
+			text-decoration: underline;
+			border-color: #0d6efd;
+		}
+	</style>
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -58,7 +78,7 @@
 				<div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
 					<div class="text text-center">
 						<span class="subheading">Hey! I am</span>
-						<h1>Đinh Nho Nam</h1>
+						<h1>Đinh Nho Nam - John</h1>
 						<h2>I'm a
 							<span class="txt-rotate" data-period="500"
 								data-rotate='["Nho", "Nam"]'></span>
@@ -106,9 +126,10 @@
 								<span class="number" data-number="6">0</span>
 								<span>Project complete</span>
 							</p>
-							<p><a target="_blank"
-									href="cv/Software Developer.pdf"
-									class="btn btn-primary py-3 px-3">CLick get to my CV</a></p>
+							<p>
+								<a target="_blank" href="cv/DinhNhoNam_Software_Engineer.pdf" class="btn btn-primary py-3 px-3">Click get to my CV</a>
+								<a target="_blank" href="https://www.linkedin.com/in/nhonamstg/" class="btn btn-outline-primary py-3 px-3 ml-2">LinkedIn</a>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -174,7 +195,8 @@
 						<h2 class="heading">Education</h2>
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
+																		<img style="width: 70px; margin-right: 10px;" src="images/Logo-PTIT@2x.png"/>
+
 							</div>
 							<div class="text pl-3">
 								<span class="date">2019-2024</span>
@@ -182,7 +204,6 @@
 								<a href="https://ptithcm.edu.vn/">
 									<span class="position">Posts and Telecommunications Institute of Technology
 
-										<img style="width: 70px; margin-right: 10px;" src="images/Logo-PTIT@2x.png"/>
 								</a>
 								
 								</span>
@@ -197,12 +218,12 @@
 						<h2 class="heading">Work Experience</h2>
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
+								<a target="_blank" href="https://crosstechhub.com/"><img src="images/crosstech.png" alt="CrossTech" style="max-width: 100%; max-height: 100%; object-fit: contain;"></a>
 							</div>
 							<div class="text pl-3">
 								<span class="date">2023.03-2024.04</span>
 								<h2>BackEnd Developer</h2>
-								<a target="_blank" href="https://crosstechhub.com/"><span class="position">The CrossTech </span> <span>🔗</span></a>
+								<a class="company-link" target="_blank" href="https://crosstechhub.com/"><span class="position">The CrossTech</span> 🔗 Visit company site</a>
 								
 								<p>Develop features for the CoCo Mentor application Mentee, deploy applications to AWS servers<br /></p>
 								<!-- <b class="text-primary">Accomplishments:</b>
@@ -223,12 +244,12 @@
 						</div>
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
+								<a target="_blank" href="https://vnptmedia.vn/"><img src="images/vnpt.png" alt="VNPT" style="max-width: 100%; max-height: 100%; object-fit: contain;"></a>
 							</div>
 							<div class="text pl-3">
 								<span class="date">2023.08-2024.01</span>
 								<h2>Android Developer</h2>
-								<a target="_blank" href="https://vnptmedia.vn/"><span class="position">VNPT-Media</span><span>🔗</span></a>
+								<a class="company-link" target="_blank" href="https://vnptmedia.vn/"><span class="position">VNPT-Media</span> 🔗 Visit company site</a>
 								
 								<p>Demonstrated legacy source understanding and seeing performance issues in Application. To contribute
 									maintain and fix performance issues.<br /></p>
@@ -243,14 +264,12 @@
 
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
+								<a target="_blank" href="https://myaloha.vn/"><img src="images/myaloha_logo.png" alt="Myaloha" style="max-width: 100%; max-height: 100%; object-fit: contain;"></a>
 							</div>
 							<div class="text pl-3">
-								<span class="date">2024.08-NOW</span>
+								<span class="date">2024.08-10.2025</span>
 								<h2>Fullstack Developer</h2>
-							<a target="_blank" href="https://myaloha.vn/" class="custom-link">
-								<span class="position">Myaloha</span> <span>🔗</span>
-							</a>
+							<a class="company-link" target="_blank" href="https://myaloha.vn/"><span class="position">Myaloha</span> 🔗 Visit company site</a>
 								
 								<p>Programming and developing public service systems and online exam website myaloha.vn.<br /></p>
 								<b class="text-primary">Accomplishments: </b>
@@ -259,6 +278,26 @@
 									<div> - handle online exam anti-cheating system.</div>
 									<div> - Build a feature to handle exam uploads in python using AI.</div>
 									<div> - Developing online exam packages for state-owned enterprises with millions of exams.</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<a target="_blank" href="https://fpt-software.com/"><img src="images/fpt logo.png" alt="FPT Software" style="max-width: 100%; max-height: 100%; object-fit: contain;"></a>
+							</div>
+							<div class="text pl-3">
+								<span class="date">2025.10 - Present</span>
+								<h2>BackEnd Developer</h2>
+								<a class="company-link" target="_blank" href="https://fpt-software.com/"><span class="position">FPT Software</span> 🔗 Visit company site</a>
+								<p>Working on Kia Hyundai vehicle management product.<br /></p>
+								<b class="text-primary">Accomplishments: </b>
+								<div>
+									<div> - Improve and handle APIs for vehicle communication (remote lock/unlock, remote vehicle control).</div>
+									<div> - Collect statistics: distance, vehicle information and usage data.</div>
+									<div> - Optimize database performance.</div>
+									<div> - Build vehicle management tools.</div>
+									<div> - Use GitLab CI and ArgoCD for CI/CD pipeline management.</div>
 								</div>
 							</div>
 						</div>
@@ -416,6 +455,17 @@
 							</div>
 							<div class="col-md-6 animate-box">
 								<div class="progress-wrap ftco-animate">
+									<h3>Oracle Database</h3>
+									<div class="progress">
+										<div class="progress-bar color-4" role="progressbar" aria-valuenow="60"
+											aria-valuemin="0" aria-valuemax="100" style="width:60%">
+											<span>60%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box">
+								<div class="progress-wrap ftco-animate">
 									<h3>PHP-Laravel</h3>
 									<div class="progress">
 										<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
@@ -482,92 +532,25 @@
 							</div>
 						</div>
 					</div>
-					<div id="page-4" class="page four">
+<div id="page-4" class="page four">
 						<h2 id="projects-section" class="heading">Projects</h2>
+
 						<div class="resume-wrap d-flex ftco-animate">
 							<div class="icon d-flex align-items-center justify-content-center">
 								<span class="flaticon-ideas"></span>
 							</div>
 							<div class="text pl-3">
-								<span class="date">Sep 2023 - Dec 2023</span>
-								<div class="d-flex">
-									<h2>App Shop Sport</h2>
-									<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank"
-											class="btn btn-outline-secondary"
-											href="https://github.com/nhonam/Project_Graduate_Android">Github</a>&nbsp;<a
-											class="btn btn-outline-secondary" target="_blank"
-											href="/images/android-app.png">Demo</a>&nbsp;
-									</div>
-								</div>
-								<!-- <span class="position">Build a sports specific e-commerce application that uses chatbots to recommend products on
-									the website for management.</span> -->
-									<div> <b class="text-dark">Participants:  </b> 1
-									</div>
-									<div> <b class="text-dark">Description:  </b>Build a sports specific e-commerce application that uses chatbots to recommend products on
-										the website for management.
-									</div>
-								<div> <b class="text-dark">Technologies and tools : </b>Java, SpringBoot Framework, Firebase, Flask, Python, MySQL, AI
-								</div>
-								<!-- <div> <b class="text-dark">주요 기능 : </b> 회원 관리 및 SNS 로그인, 상품 리스트 확인, 상품 상세 정보
-									확인, 예약 관리, 결제 </div>
-								<p> React </p> -->
-							</div>
-						</div>
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">Mar 2022 - May 2022</span>
-								<div class="d-flex">
-									<h2>E-commerce website</h2>
-									<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank"
-											class="btn btn-outline-secondary"
-											href="https://github.com/nhonam/Ecomerce_Website_BE_FE_Mobile">Gitlab</a>&nbsp;<a
-											class="btn btn-outline-secondary" target="_blank"
-											href="/images/web.png">Demo</a>&nbsp;
-									</div>
-								</div>
-								<!-- <span class="position">Build a sports specific e-commerce application that uses chatbots to recommend products on
-									the website for management.</span> -->
-									<div> <b class="text-dark">Participants:  </b> 2
-									</div>
-									<div> <b class="text-dark">Description:  </b>E-commerce website, users can buy or post products for sale.
-									</div>
-								<div> <b class="text-dark">Technologies and tools : </b>ReacJS, MongoDB, NodeJs
-								</div>
-								<!-- <div> <b class="text-dark">주요 기능 : </b> 회원 관리 및 SNS 로그인, 상품 리스트 확인, 상품 상세 정보
-									확인, 예약 관리, 결제 </div>
-								<p> React </p> -->
-							</div>
-						</div>
-						
-						<div class="resume-wrap d-flex ftco-animate">
-							<div class="icon d-flex align-items-center justify-content-center">
-								<span class="flaticon-ideas"></span>
-							</div>
-							<div class="text pl-3">
-								<span class="date">Jun 2022 - Aug 2022</span>
-								<div class="d-flex">
-									<h2>Student manager credit system</h2>
-									<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank"
-											class="btn btn-outline-secondary"
-											href="https://github.com/nhonam/CSDL_PT">Github</a>&nbsp;<a
-											class="btn btn-outline-secondary" target="_blank"
-											href="/images/phantan.png">Demo</a>&nbsp;
-									</div>
-								</div>
-								<!-- <span class="position">Build a sports specific e-commerce application that uses chatbots to recommend products on
-									the website for management.</span> -->
-									<div> <b class="text-dark">Participants:  </b> 1
-									</div>
-									<div> <b class="text-dark">Description:  </b>Credit system student score management application using distributed database.
-									</div>
-								<div> <b class="text-dark">Technologies and tools : </b>.Net, SQL Server, Distributed Database
-								</div>
-								<!-- <div> <b class="text-dark">주요 기능 : </b> 회원 관리 및 SNS 로그인, 상품 리스트 확인, 상품 상세 정보
-									확인, 예약 관리, 결제 </div>
-								<p> React </p> -->
+								<span class="date">Oct 2025 - Present</span>
+								<h2>Connected car (Kia - Hyundai)</h2>
+								<div><b class="text-dark">Overview:</b> Working on a vehicle management product for Kia Hyundai.</div>
+								<div><b class="text-dark">Responsibilities:</b></div>
+								<div> - Enhance and manage APIs for vehicle communication (remote lock/unlock, remote vehicle control).</div>
+								<div> - Gather statistics such as distance, vehicle details, and usage data.</div>
+								<div> - Optimize database performance.</div>
+								<div> - Develop vehicle management tools.</div>
+								<div> - Utilize GitLab CI and ArgoCD for managing the CI/CD pipeline.</div>
+								<div><b class="text-dark">Team size:</b> 30 members</div>
+								<div><b class="text-dark">Tech stack:</b> Spring Boot, Spring MVC, Microservices, Node.js, MySQL, OracleDB, MongoDB, and more.</div>
 							</div>
 						</div>
 
@@ -576,28 +559,55 @@
 								<span class="flaticon-ideas"></span>
 							</div>
 							<div class="text pl-3">
-								<span class="date">May 2022 - Jul 2022</span>
-								<div class="d-flex">
-									<h2>Coffee shop manager</h2>
-									<div>&nbsp;<a class="btn btn-outline-secondary" target="_blank"
-											class="btn btn-outline-secondary"
-											href="https://github.com/nhonam/quanlyquancafe">Github</a>&nbsp;
-											<!-- <a
-											class="btn btn-outline-secondary" target="_blank"
-											href="/images/android-app.png">Demo</a>&nbsp; -->
-									</div>
-								</div>
-								<!-- <span class="position">Build a sports specific e-commerce application that uses chatbots to recommend products on
-									the website for management.</span> -->
-									<div> <b class="text-dark">Participants:  </b> 2
-									</div>
-									<div> <b class="text-dark">Description:  </b>Coffee shop management website, customers can order drinks
-									</div>
-								<div> <b class="text-dark">Technologies and tools : </b>Spring MVC, SQL Server, JSP Servlet, Boostrap, HTML/CSS/JS.
-								</div>
-								<!-- <div> <b class="text-dark">주요 기능 : </b> 회원 관리 및 SNS 로그인, 상품 리스트 확인, 상품 상세 정보
-									확인, 예약 관리, 결제 </div>
-								<p> React </p> -->
+								<span class="date">Jul 2024 - Oct 2025</span>
+								<h2>Myaloha platform</h2>
+								<div><b class="text-dark">Overview:</b> Myaloha.vn is a dedicated platform for organizing online contests, events, surveys, and voting.</div>
+								<div><b class="text-dark">Responsibilities:</b></div>
+								<div> - Optimize search processing and natural language processing.</div>
+								<div> - Handle online exam anti-cheating system.</div>
+								<div> - Build a feature to handle exam uploads in Python using AI.</div>
+								<div> - Developing online exam packages for state-owned enterprises with millions of exams.</div>
+								<div><b class="text-dark">Team size:</b> 8 (4 FullStack, 2 BA, 1 PO, 1 QC)</div>
+								<div><b class="text-dark">Tech stack:</b> Laravel, VueJS, MySQL, Redis, AWS S3.</div>
+							</div>
+						</div>
+
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">Jul 2024 - Oct 2025</span>
+								<h2>Aloha Agent</h2>
+								<div><b class="text-dark">Overview:</b> A browser-based AI agent to automate office tasks for enterprises (marketing automation, invoice collection, schedule management, email handling) and AI chatbot integration.</div>
+								<div><b class="text-dark">Responsibilities:</b></div>
+								<div> - Develop browser automation features to streamline office workflows.</div>
+								<div> - Implement marketing automation and email handling.</div>
+								<div> - Build invoice collection and scheduling features.</div>
+								<div> - Design and integrate AI chatbot for enterprise customer interaction.</div>
+								<div><b class="text-dark">Team size:</b> 1 FullStack</div>
+								<div><b class="text-dark">Tech stack:</b> Langchain, VueJS, MySQL, Open AI, FastAPI, Retrieval-Augmented Generation.</div>
+							</div>
+						</div>
+
+						<div class="resume-wrap d-flex ftco-animate">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="flaticon-ideas"></span>
+							</div>
+							<div class="text pl-3">
+								<span class="date">Jan 2023 - Mar 2024 (Part-time)</span>
+								<h2>COCO Platform (Web & Mobile App)</h2>
+								<div><b class="text-dark">Overview:</b> A platform that connects users with mentors to support learning and personal development.</div>
+								<div><b class="text-dark">Responsibilities:</b></div>
+								<div> - Designed and optimized database schemas for learning and connection features.</div>
+								<div> - Developed APIs.</div>
+								<div> - Integrated PayOS for secure connection package payments.</div>
+								<div> - Developed scheduling system and real-time notifications using Firebase.</div>
+								<div> - Deployed backend services on AWS EC2 using Docker.</div>
+								<div> - Set up CI/CD pipeline with GitHub and GitLab.</div>
+								<div> - Participated in Scrum ceremonies and supported new team members.</div>
+								<div><b class="text-dark">Team size:</b> 15 (2 QCs, 1 BA, 4 Backend, 4 Frontend, 2 Mobile, 1 ScrumMaster)</div>
+								<div><b class="text-dark">Tech stack:</b> Node.js, Express.js, Firebase, Docker, AWS (EC2, S3), GitHub, GitLab, JWT, PayOS.</div>
 							</div>
 						</div>
 					</div>
@@ -782,11 +792,10 @@
 				</div>
 				<div class="col-md-4 d-flex ftco-animate">
 					<div class="blog-entry">
-						<a  class="block-20" style="background-image: url('images/daihoc.jpg');">
+						<a class="block-20" style="background-image: url('images/nhonam.jpg');">
 						</a>
 						<div class="text mt-3 float-right d-block">
-							<h3 class="heading"><a >Graduated from university</a>
-							</h3>
+							<h3 class="heading"><a>The Rise of AI and Its Role in Work</a></h3>
 							<div class="d-flex align-items-center mb-3 meta">
 								<p class="mb-0">
 									<span class="mr-2">Nov. 10, 2024</span>
@@ -794,7 +803,7 @@
 									<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
 								</p>
 							</div>
-							<p>Love exploring culture as well as majestic and amazing nature.</p>
+							<p>Presenting at Aloha Ecommerce on how AI is transforming workflows, optimizing processes, and boosting efficiency.</p>
 						</div>
 					</div>
 				</div>
@@ -866,7 +875,7 @@
 						</div>
 						<div>
 							<h3 class="mb-4">Website</h3>
-							<p><a href="http://tech.nhonam.io.vn:4000/test">tech.nhonam.io.vn</a></p>
+							<p><a href="https://info.nhonam.io.vn/">info.nhonam.io.vn/</a></p>
 						</div>
 					</div>
 				</div>
